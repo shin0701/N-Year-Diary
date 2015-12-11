@@ -121,7 +121,7 @@
     background: #222;
     width: 244px;
     height: 36px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     z-index: inherit;
 }

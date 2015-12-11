@@ -12,4 +12,7 @@ $(window).load(function(){
         }
     });
     
+    $( "#sidebar-wrapper" ).scroll(function() {
+        $( "#LANGUAGE_LIST" ).css( {top: $("#sidebar-wrapper").height()+$("#sidebar-wrapper").scrollTop()-36} );
+    });
 });
