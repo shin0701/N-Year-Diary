@@ -1,0 +1,155 @@
+body {
+	font-family: 'Monaco', '微軟正黑體', '標楷體';
+    font-size: 16px;
+}
+
+#menu-toggle {
+    width:30px;
+}
+
+#TOP {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    position: fixed;
+    left: 50%;
+    top: 0;
+    background: rgba(255,255,255,0.8);
+}
+#TOP_BTN {
+    float: right;
+}
+
+#PRE_DATE {
+    font-size: 14px;
+    font-weight: bold;
+    width:75px;
+    position: fixed;
+    bottom: 0;
+    background: rgba(255,255,255,0.8);
+}
+#NEXT_DATE {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    width:75px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background: rgba(255,255,255,0.8);
+}
+#PRE_DATE:hover, #NEXT_DATE:hover {
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+}
+
+#PRE_MONTH {
+    font-size: 14px;
+    font-weight: bold;
+    width:100px;
+    position: fixed;
+    bottom: 0;
+    background: rgba(255,255,255,0.8);
+}
+#NEXT_MONTH {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: right;
+    width:100px;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    background: rgba(255,255,255,0.8);
+}
+#PRE_MONTH:hover, #NEXT_MONTH:hover, #TOP:hover {
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+}
+
+.year-title {
+    font-size: 24px;
+    font-weight: bold;
+    width:70px;
+    float: left;
+}
+
+.add-year-title {
+    font-size: 24px;
+    font-weight: bold;
+    width:150px;
+    float: left;
+}
+
+.date-title {
+    font-size: 24px;
+    font-weight: bold;
+    width:220px;
+    float: left;
+}
+
+.add-date-title {
+    font-size: 24px;
+    font-weight: bold;
+    width:250px;
+    float: left;
+}
+
+.day-title {
+    font-size: 18px;
+    font-weight: bold;
+    width:50px;
+    line-height:34px;
+    float: left;
+    vertical-align:bottom;
+}
+
+.date-list, .day-list {
+    float: left;
+}
+
+/* ----- Scrollbar Sidebar ----- */
+#sidebar-wrapper::-webkit-scrollbar {
+	width: 6px;
+}
+#sidebar-wrapper::-webkit-scrollbar-thumb {
+	background:#999;
+	border: none;
+	border-radius:10px;
+}
+#sidebar-wrapper::-webkit-scrollbar-thumb:hover {
+	background:#777;
+}
+#sidebar-wrapper::-webkit-scrollbar-track {
+	background:#222;
+	border: none;
+	box-shadow: 0px 0px 0px #dfdfdf inset;
+	border-radius:10px;
+}
+#sidebar-wrapper::-webkit-scrollbar-button {
+	width: 5px;
+	height:5px;
+}
+
+/* ----- Scrollbar Page Content ----- */
+::-webkit-scrollbar {
+	width: 6px;
+}
+::-webkit-scrollbar-thumb {
+	background:#333;
+	border: none;
+	border-radius:10px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background:#777;
+}
+::-webkit-scrollbar-track {
+	background: none;
+	border: none;
+	box-shadow: 0px 0px 0px #dfdfdf inset;
+	border-radius:10px;
+}
+::-webkit-scrollbar-button {
+	width: 5px;
+	height:5px;
+}
+
